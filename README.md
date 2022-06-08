@@ -17,7 +17,7 @@ The main interface (similar in python and common lisp) comprises of:
 
 About 9 simulations covered in Gershman (2015) have been coded up in the following files. These also illustrate example usage of the above classes and functions.
 - [python/simulations.ipynb](./python/simulations.ipynb): the full versions without any simplifications
-- [common-lisp/simulations.ipynb](./common-lisp/simulations.ipynb): based on an abstraction that separates out stimuli-reward generation and processing from the actual high level experimental paradigm and plotting code
+- [common-lisp/simulations.lisp](./common-lisp/simulations.lisp): based on an abstraction that separates out stimuli-reward generation and processing from the actual high level experimental paradigm and plotting code
 - [python/simulations_using_helper.py](./python/simulations_using_helper.py): originally developed to simplify the full simulations in the simulations.ipynb; this is incomplete.
 
 Recommended way to run the simulations in common lisp is `(in-package :kalman-td)`. In other cases, one may need to play around with `*array-element-type*`.

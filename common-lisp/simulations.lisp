@@ -3,7 +3,7 @@
 (defun simulate (name) (funcall (symbolicate 'simulate '- name)))
 
 
-;; A basic demonstration, without using helper.lisp
+;; A basic demonstration, without using simulations-helper.lisp
 (defun simulate-latent-inhibition ()
 
   (let ((*array-element-type* 'single-float))
@@ -73,7 +73,7 @@
                       ctrl-expected-rewards)))))))
 
 
-;;; All the functions this point forward rely on helper.lisp
+;;; All the functions this point forward rely on simulations-helper.lisp
 (defun simulate-latent-inhibition ()
   "
     Phase 1: X -> - for experimental, none for control

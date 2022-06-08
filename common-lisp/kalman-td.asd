@@ -6,5 +6,8 @@
                "defclass-std"
                "dense-arrays+magicl"
                "metabang-bind")
+  :serial t
   :components ((:file "py4cl")
-               (:file "kalman-td")))
+               (:file "kalman-td")
+               (:file "simulations-helper")
+               (:file "simulations")))

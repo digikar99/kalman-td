@@ -13,7 +13,7 @@
 
 (setf (assoc-value *array-element-type-alist* (find-package :kalman-td)) 'single-float)
 
-(defun @ (&rest args) (apply #'magicl-funcall #'magicl:@ args))
+(defun @ (&rest args) (apply #'dense-arrays:magicl-funcall #'magicl:@ args))
 
 (defclass/std kalman-td ()
   ((num-weights
